@@ -1,120 +1,120 @@
 {
-    "guruh":  "MNP-75/23",
-    "jadvallar":  [
-                      {
-                          "tt_num":  "94",
-                          "nomi":  "September 14 -2026 (07. 09. - 30. 10. 2026)",
-                          "boshlanadi":  "2026-09-07",
-                          "darslar":  [
-                                          {
-                                              "kun":  0,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "16:00",
-                                              "tugash":  "17:20",
-                                              "fan":  "Xalqaro menejment (Ma)",
-                                              "xona":  "1/425-60",
-                                              "oqituvchi":  "Kadirxodjayeva N."
-                                          },
-                                          {
-                                              "kun":  0,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "17:30",
-                                              "tugash":  "18:50",
-                                              "fan":  "Xalqaro menejment (Ma)",
-                                              "xona":  "1/425-60",
-                                              "oqituvchi":  "Kadirxodjayeva N."
-                                          },
-                                          {
-                                              "kun":  1,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "14:30",
-                                              "tugash":  "15:50",
-                                              "fan":  "Global biznes muhit (Ma)",
-                                              "xona":  "1/417-70",
-                                              "oqituvchi":  "Yegamberdiev Sh.S."
-                                          },
-                                          {
-                                              "kun":  1,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "16:00",
-                                              "tugash":  "17:20",
-                                              "fan":  "Pul va banklar (Ma)",
-                                              "xona":  "1/425-60",
-                                              "oqituvchi":  "Jo\u0027rayev I."
-                                          },
-                                          {
-                                              "kun":  1,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "17:30",
-                                              "tugash":  "18:50",
-                                              "fan":  "Pul va banklar (Ma)",
-                                              "xona":  "1/425-60",
-                                              "oqituvchi":  "Jo\u0027rayev I."
-                                          },
-                                          {
-                                              "kun":  2,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "14:30",
-                                              "tugash":  "15:50",
-                                              "fan":  "Global biznes muhit (Sem)",
-                                              "xona":  "1/434-30",
-                                              "oqituvchi":  "Yegamberdiev Sh.S."
-                                          },
-                                          {
-                                              "kun":  2,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "16:00",
-                                              "tugash":  "17:20",
-                                              "fan":  "Pul va banklar (Sem)",
-                                              "xona":  "1/420-30",
-                                              "oqituvchi":  "Nasimova Yulduz Baxriddin qizi"
-                                          },
-                                          {
-                                              "kun":  2,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "17:30",
-                                              "tugash":  "18:50",
-                                              "fan":  "Xalqaro menejment (Sem)",
-                                              "xona":  "1/420-30",
-                                              "oqituvchi":  "Kadirxodjayeva N."
-                                          },
-                                          {
-                                              "kun":  3,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "16:00",
-                                              "tugash":  "17:20",
-                                              "fan":  "Global biznes muhit (Ma)",
-                                              "xona":  "1/417-70",
-                                              "oqituvchi":  "Yegamberdiev Sh.S."
-                                          },
-                                          {
-                                              "kun":  3,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "17:30",
-                                              "tugash":  "18:50",
-                                              "fan":  "Global biznes muhit (Sem)",
-                                              "xona":  "1/420-30",
-                                              "oqituvchi":  "Yegamberdiev Sh.S."
-                                          },
-                                          {
-                                              "kun":  4,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "16:00",
-                                              "tugash":  "17:20",
-                                              "fan":  "Xalqaro menejment (Sem)",
-                                              "xona":  "1/420-30",
-                                              "oqituvchi":  "Kadirxodjayeva N."
-                                          },
-                                          {
-                                              "kun":  4,
-                                              "haftalar":  "11",
-                                              "boshlanish":  "17:30",
-                                              "tugash":  "18:50",
-                                              "fan":  "Pul va banklar (Sem)",
-                                              "xona":  "1/420-30",
-                                              "oqituvchi":  "Nasimova Yulduz Baxriddin qizi"
-                                          }
-                                      ]
-                      }
-                  ]
+ "guruh": "MNP-75/23",
+ "jadvallar": [
+  {
+   "tt_num": "94",
+   "nomi": "September 14 -2026 (07. 09. - 30. 10. 2026)",
+   "boshlanadi": "2026-09-07",
+   "darslar": [
+    {
+     "kun": 0,
+     "haftalar": "11",
+     "boshlanish": "16:00",
+     "tugash": "17:20",
+     "fan": "Xalqaro menejment (Ma)",
+     "xona": "1/425-60",
+     "oqituvchi": "Kadirxodjayeva N."
+    },
+    {
+     "kun": 0,
+     "haftalar": "11",
+     "boshlanish": "17:30",
+     "tugash": "18:50",
+     "fan": "Xalqaro menejment (Ma)",
+     "xona": "1/425-60",
+     "oqituvchi": "Kadirxodjayeva N."
+    },
+    {
+     "kun": 1,
+     "haftalar": "11",
+     "boshlanish": "14:30",
+     "tugash": "15:50",
+     "fan": "Global biznes muhit (Ma)",
+     "xona": "1/417-70",
+     "oqituvchi": "Yegamberdiev Sh.S."
+    },
+    {
+     "kun": 1,
+     "haftalar": "11",
+     "boshlanish": "16:00",
+     "tugash": "17:20",
+     "fan": "Pul va banklar (Ma)",
+     "xona": "1/425-60",
+     "oqituvchi": "Jo'rayev I."
+    },
+    {
+     "kun": 1,
+     "haftalar": "11",
+     "boshlanish": "17:30",
+     "tugash": "18:50",
+     "fan": "Pul va banklar (Ma)",
+     "xona": "1/425-60",
+     "oqituvchi": "Jo'rayev I."
+    },
+    {
+     "kun": 2,
+     "haftalar": "11",
+     "boshlanish": "14:30",
+     "tugash": "15:50",
+     "fan": "Global biznes muhit (Sem)",
+     "xona": "1/434-30",
+     "oqituvchi": "Yegamberdiev Sh.S."
+    },
+    {
+     "kun": 2,
+     "haftalar": "11",
+     "boshlanish": "16:00",
+     "tugash": "17:20",
+     "fan": "Pul va banklar (Sem)",
+     "xona": "1/420-30",
+     "oqituvchi": "Nasimova Yulduz Baxriddin qizi"
+    },
+    {
+     "kun": 2,
+     "haftalar": "11",
+     "boshlanish": "17:30",
+     "tugash": "18:50",
+     "fan": "Xalqaro menejment (Sem)",
+     "xona": "1/420-30",
+     "oqituvchi": "Kadirxodjayeva N."
+    },
+    {
+     "kun": 3,
+     "haftalar": "11",
+     "boshlanish": "16:00",
+     "tugash": "17:20",
+     "fan": "Global biznes muhit (Ma)",
+     "xona": "1/417-70",
+     "oqituvchi": "Yegamberdiev Sh.S."
+    },
+    {
+     "kun": 3,
+     "haftalar": "11",
+     "boshlanish": "17:30",
+     "tugash": "18:50",
+     "fan": "Global biznes muhit (Sem)",
+     "xona": "1/420-30",
+     "oqituvchi": "Yegamberdiev Sh.S."
+    },
+    {
+     "kun": 4,
+     "haftalar": "11",
+     "boshlanish": "16:00",
+     "tugash": "17:20",
+     "fan": "Xalqaro menejment (Sem)",
+     "xona": "1/420-30",
+     "oqituvchi": "Kadirxodjayeva N."
+    },
+    {
+     "kun": 4,
+     "haftalar": "11",
+     "boshlanish": "17:30",
+     "tugash": "18:50",
+     "fan": "Pul va banklar (Sem)",
+     "xona": "1/420-30",
+     "oqituvchi": "Nasimova Yulduz Baxriddin qizi"
+    }
+   ]
+  }
+ ]
 }
