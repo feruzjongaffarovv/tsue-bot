@@ -5,6 +5,7 @@ GitHub Actions har kuni ishga tushiradi. Faqat standart kutubxona ishlatiladi.
 import json
 import os
 import sys
+import time
 import urllib.request
 from datetime import date, datetime, timezone, timedelta
 
@@ -15,15 +16,23 @@ BASE = f"https://{SCHOOL}.edupage.org/timetable/server"
 TASHKENT = timezone(timedelta(hours=5))
 
 
-def call(path, func, args):
+def call(path, func, args, attempts=4):
     body = json.dumps({"__args": args, "__gsh": "00000000"}).encode()
     req = urllib.request.Request(
         f"{BASE}/{path}?__func={func}",
         data=body,
         headers={"Content-Type": "application/json", "User-Agent": "Mozilla/5.0"},
     )
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        return json.loads(resp.read().decode("utf-8"))["r"]
+    # Edupage katta javobni (8 MB) ba'zan uzib qo'yadi — bir necha marta urinamiz
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                return json.loads(resp.read().decode("utf-8"))["r"]
+        except Exception as e:
+            print(f"{func}: {attempt}-urinish muvaffaqiyatsiz: {e!r}", file=sys.stderr)
+            if attempt == attempts:
+                raise
+            time.sleep(30 * attempt)
 
 
 def timetables():
