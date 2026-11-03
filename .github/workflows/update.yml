@@ -2,7 +2,7 @@ name: Jadvalni yangilash
 
 on:
   schedule:
-    - cron: "0 20 * * *"   # har kuni 01:00 (Toshkent)
+        - cron: "17 * * * *"   # har soatda
   workflow_dispatch:        # qo'lda ishga tushirish tugmasi
 
 permissions:
